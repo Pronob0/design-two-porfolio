@@ -1,0 +1,104 @@
+.first{
+	background-color: #255784;
+
+}
+.name{
+	background-color: #102040;
+	color: white;
+	box-shadow: 0 0 10px #102040,0 0 40px #102040,0 0 80px #102040;
+	transition: 2s;
+	animation-name: pronob;
+	animation-duration:3s;
+}
+@keyframes pronob{
+	from{
+	background-color: #102040;
+	color: white;
+	box-shadow: 0 0 10px #102040,0 0 40px #102040,0 0 80px #102040;
+
+	}
+	to{
+		background-color: #2196f3;
+		color: #255784;
+		box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+		
+}
+}
+
+.column{
+	border:1px solid white;
+	border-radius: 5px;
+}
+.about{
+	background-color: #62CC86;
+}
+.padd{
+	padding-top: 15%;
+}
+.image{
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	float: right;
+
+}
+.education{
+	background-color: #E2E7ED;
+	overflow: hidden;
+}
+.education2{
+	margin-top: 80px;
+}
+.picture{
+	background-color: #FB8580;
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	border-radius: 50%;
+	margin-left: 30px;
+
+
+}
+.picture p{
+	text-align: center;
+	position: relative;
+	margin-top: 35%;
+	color: white;
+
+}
+.second{
+	margin-top: 40px;
+	padding-bottom: 50px;
+}
+.project{
+	
+	overflow: hidden;
+	background-color: #1FA7E2;
+}
+.project2{
+	margin-top: 150px;
+
+}
+.project2 img{
+	width: 250px;
+	height: 220px;
+}
+.time{
+	margin-top: -10px;
+	padding-bottom: 50px;
+}
+.contact{
+	background-color: #454C5C;
+	overflow: hidden;
+}
+.card
+{
+	height: 250px;
+	width: 250px;
+	
+}
+.footer{
+	background-color: #007BFF;
+	overflow: hidden;
+}
